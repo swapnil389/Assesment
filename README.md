@@ -1,3 +1,6 @@
+#Here's a basic implementation of a user registration and login system in Python. We'll use the sqlite3 library for database management and the hashlib library for password hashing.
+
+#First, let's set up the database:
 # import sqlite3
 
 # Connect to the SQLite database (or create it if it doesn't exist)
@@ -19,3 +22,4 @@ CREATE TABLE IF NOT EXISTS users (
 # Commit the changes and close the connection
 conn.commit()
 conn.close()
+ 
